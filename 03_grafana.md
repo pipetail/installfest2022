@@ -4,7 +4,7 @@ Install prerequisites:
 
 ```
 sudo apt update
-sudo apt install -f apache2
+sudo apt install -y apache2
 
 ```
 
