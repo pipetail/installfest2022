@@ -3,8 +3,8 @@
 Install prerequisites:
 
 ```
-apt update
-apt install apache2
+sudo apt update
+sudo apt install -f apache2
 
 ```
 
@@ -40,7 +40,7 @@ killall -HUP prometheus
 Download and install the latest Debian package from https://grafana.com/:
 
 ```
-apt-get install -y adduser libfontconfig1
+sudo apt-get install -y adduser libfontconfig1
 wget https://dl.grafana.com/oss/release/grafana_6.6.2_amd64.deb
 sudo dpkg -i grafana_6.6.2_amd64.deb
 ```
