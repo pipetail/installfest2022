@@ -7,11 +7,6 @@ Extract the contents into a new directory and change to that directory.
 
 
 ```
-wget -c https://prajer.org/prometheus-2.16.0.linux-amd64.tar.gz
-```
-
-
-```
 wget https://github.com/prometheus/prometheus/releases/download/v2.16.0/prometheus-2.16.0.linux-amd64.tar.gz
 tar zxf prometheus-2.16.0.linux-amd64.tar.gz
 cd prometheus-2.16.0.linux-amd64/
