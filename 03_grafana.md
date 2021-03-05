@@ -17,9 +17,9 @@ sudo systemctl start apache2
 
 Download and start apache exporter
 ```
-wget https://github.com/Lusitaniae/apache_exporter/releases/download/v0.7.0/apache_exporter-0.7.0.linux-amd64.tar.gz
-tar zxf apache_exporter-0.7.0.linux-amd64.tar.gz
-cd apache_exporter-0.7.0.linux-amd64/
+wget https://github.com/Lusitaniae/apache_exporter/releases/download/v0.8.0/apache_exporter-0.8.0.linux-amd64.tar.gz
+tar zxf apache_exporter-0.8.0.linux-amd64.tar.gz
+cd apache_exporter-0.8.0.linux-amd64/
 ./apache_exporter
 ```
 
@@ -41,8 +41,8 @@ Download and install the latest Debian package from https://grafana.com/:
 
 ```
 sudo apt-get install -y adduser libfontconfig1
-wget https://dl.grafana.com/oss/release/grafana_6.6.2_amd64.deb
-sudo dpkg -i grafana_6.6.2_amd64.deb
+wget https://dl.grafana.com/oss/release/grafana_7.4.3_amd64.deb
+sudo dpkg -i grafana_7.4.3_amd64.deb
 ```
 
 Start the `grafana-server`

@@ -37,4 +37,3 @@ killall -HUP prometheus
 Now you'll the the alert in "Alerts" section of prometheus web interface.
 
 Try stopping the Apache HTTP server and alert should be fired.
-

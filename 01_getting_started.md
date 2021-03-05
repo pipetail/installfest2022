@@ -7,9 +7,9 @@ Extract the contents into a new directory and change to that directory.
 
 
 ```
-wget https://github.com/prometheus/prometheus/releases/download/v2.16.0/prometheus-2.16.0.linux-amd64.tar.gz
-tar zxf prometheus-2.16.0.linux-amd64.tar.gz
-cd prometheus-2.16.0.linux-amd64/
+wget https://github.com/prometheus/prometheus/releases/download/v2.25.0/prometheus-2.25.0.linux-amd64.tar.gz
+tar zxf prometheus-2.25.0.linux-amd64.tar.gz
+cd prometheus-2.25.0.linux-amd64/
 ```
 
 ## Configuring Prometheus to monitor itself
@@ -83,14 +83,14 @@ running it on other platforms.
 Linux example:
 
 ```
-wget https://github.com/prometheus/node_exporter/releases/download/v0.18.1/node_exporter-0.18.1.linux-amd64.tar.gz
-tar zxf node_exporter-0.18.1.linux-amd64.tar.gz
+wget https://github.com/prometheus/node_exporter/releases/download/v1.1.2/node_exporter-1.1.2.linux-amd64.tar.gz
+tar zxf node_exporter-1.1.2.linux-amd64.tar.gz
 ```
 
 Start the node exporter:
 
 ```
-cd node_exporter-0.18.1.linux-amd64/
+cd node_exporter-1.1.2.linux-amd64/
 ./node_exporter
 ```
 
