@@ -62,7 +62,7 @@ Dashboards to import:
 
 Download the latest `hey` release
 ```
-wget https://storage.googleapis.com/hey-release/hey_linux_amd64 -O hey && chmod 755 hey
+wget https://hey-release.s3.us-east-2.amazonaws.com/hey_linux_amd64 -O hey && chmod 755 hey
 ```
 
 Simulate some load
